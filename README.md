@@ -12,7 +12,9 @@ Prerequisites:
 	`
 
 
-* Collect static files
+* Collect static files: `python manage.py collectstatic`
+* Prepare the database: `python manage.py migrate`
+
 
 To start locally:
 * Download and run centrifugo server: `centrifugo --config=config-cent.json -p 8003`
